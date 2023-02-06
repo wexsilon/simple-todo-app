@@ -1,0 +1,16 @@
+{
+  "name": "simple-todo-app",
+  "version": "1.0.0",
+  "description": "simple todoapp using nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,css,html app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon-32x32.png" sizes="32x32" type="image/png">
+</head>
+<body>
+    <center>
+        <form action="/add-todo" method="post">
+            <label for="inputtodo">New Todo</label>
+            <input id="inputtodo" name="todo" style="font-size: 12pt;">
+            <button type="submit">+</button>
+        </form>
+        <br>
+        <table>
+            <tr>
+                <th>Completed <span class="color-count-com">%d </span></th>
+                <th>UnCompleted <span class="color-count-uncom">%d </span></th>
+            </tr>
+            %s
+        </table>
+    </center>
+    <script src="js/eventhandler.js"></script>
+</body>
+</html>

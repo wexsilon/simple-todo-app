@@ -1,0 +1,30 @@
+table, th, td {
+    border: 1px solid black;
+    border-color: dodgerblue;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+
+body {
+    padding: 25px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+
+.color-count-com {
+    border-radius: 50%;
+    background-color: green;
+}
+
+.color-count-uncom {
+    border-radius: 50%;
+    background-color: red;
+}
+
+a {
+    color: darkorange;
+}
