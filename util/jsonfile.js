@@ -5,6 +5,5 @@ module.exports.readJson = function () {
 };
 
 module.exports.writeJson = function (obj) {
-    console.log(obj);
     fs.writeFileSync('./data/todos.json', JSON.stringify(obj));
 };
